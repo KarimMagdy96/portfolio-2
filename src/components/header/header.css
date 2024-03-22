@@ -77,6 +77,10 @@ header .fixed ul.modal li:first-child {
 header.fixed ul.modal li a {
   font-size: 1rem;
 }
+header .icon-moon,
+header .icon-th-menu {
+  background-color: red;
+}
 @media (max-width: 700px) {
   header.flex nav {
     display: none;

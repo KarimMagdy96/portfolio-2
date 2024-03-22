@@ -8,10 +8,8 @@ export default function Header() {
         onClick={() => {
           setshowModul(true);
         }}
-        className="menu"
-      >
-        Show model
-      </button>
+        className="icon-th-menu"
+      ></button>
       <div />
       <nav>
         <ul className="flex">
@@ -32,7 +30,9 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-      <button>light</button>
+      <button>
+        <span className="icon-moon"></span>
+      </button>
       {showModel && (
         <div className=" fixed">
           <div className="">
