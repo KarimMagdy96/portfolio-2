@@ -79,7 +79,17 @@ header.fixed ul.modal li a {
 }
 header .icon-moon,
 header .icon-th-menu {
-  background-color: red;
+  background-color: var(--bgHeader);
+  color: var(--subtitle);
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: 1px solid rgba(250, 128, 114, 0.243);
+  transition: 0.2s;
+}
+header .icon-moon:hover,
+header .icon-th-menu:hover {
+  color: var(--title);
+  border: 1px solid rgba(250, 128, 114, 0.438);
 }
 @media (max-width: 700px) {
   header.flex nav {
