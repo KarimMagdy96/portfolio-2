@@ -86,6 +86,15 @@ header .icon-th-menu {
   border: 1px solid rgba(250, 128, 114, 0.243);
   transition: 0.2s;
 }
+header .icon-cancel {
+  color: var(--subtitle);
+  transition: 0.3s;
+}
+header .icon-cancel:hover {
+  font-size: 1.6rem;
+  color: crimson;
+  rotate: 180deg;
+}
 header .icon-moon:hover,
 header .icon-th-menu:hover {
   color: var(--title);
