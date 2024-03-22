@@ -39,12 +39,11 @@ export default function Header() {
             <ul className=" modal">
               <li>
                 <button
+                  className="icon-cancel"
                   onClick={() => {
                     setshowModul(false);
                   }}
-                >
-                  Close
-                </button>
+                ></button>
               </li>
               <li>
                 <a href="">About</a>
