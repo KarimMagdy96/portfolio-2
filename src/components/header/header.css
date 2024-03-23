@@ -52,7 +52,7 @@ header .fixed {
 
 header .fixed ul.modal {
   animation: mymove 0.7s 1;
-  width: 85%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2rem;
@@ -95,6 +95,9 @@ header .icon-cancel:hover {
   color: crimson;
   rotate: 180deg;
 }
+header .icon-th-menu {
+  display: none;
+}
 header .icon-moon:hover,
 header .icon-th-menu:hover {
   color: var(--title);
@@ -103,6 +106,9 @@ header .icon-th-menu:hover {
 @media (max-width: 700px) {
   header.flex nav {
     display: none;
+  }
+  header .icon-th-menu {
+    display: block;
   }
   header button.menu {
     display: block;

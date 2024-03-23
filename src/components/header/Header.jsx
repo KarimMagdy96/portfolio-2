@@ -3,7 +3,7 @@ import "./header.css";
 export default function Header() {
   const [showModel, setshowModul] = useState(false);
   return (
-    <header className="border flex">
+    <header className=" flex">
       <button
         onClick={() => {
           setshowModul(true);
