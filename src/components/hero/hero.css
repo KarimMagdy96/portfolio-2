@@ -9,6 +9,10 @@ section.hero .avatar {
   border-radius: 50%;
   border: 1px solid blue;
   padding: 3px;
-  margin-right: 16px;
+  margin-right: 0.6rem;
   box-shadow: 2px 2px 40px blue inset;
+}
+section.hero .icon-verified {
+  color: var(--blue);
+  font-size: 1.1rem;
 }
