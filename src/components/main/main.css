@@ -1,5 +1,5 @@
 main.flex {
-  gap: 3rem;
+  gap: 2.64rem;
   align-items: start;
 }
 
@@ -29,6 +29,63 @@ section.left-section.flex button.active {
   border-radius: 5px;
 }
 /* right section */
-section.right-section {
-  flex-grow: 1;
+section.right-section.flex {
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 16px;
+  row-gap: 2rem;
+  /* flex-grow: 1; */
+}
+.card {
+  border: 1px solid rgba(93, 188, 252, 0.3);
+  transition: 0.3s;
+  border-radius: 5px;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.05)
+  );
+}
+.card img {
+  border-radius: 5px;
+}
+.card:hover {
+  border: 1px solid var(--blue);
+  rotate: 1deg;
+  scale: 1.01;
+  cursor: pointer;
+}
+.card .box {
+  padding: 1rem 0.4rem;
+}
+.card .box .title {
+  color: var(--title);
+  text-transform: capitalize;
+}
+.card .box .sub-title {
+  color: var(--subtitle);
+  font-size: 0.8rem;
+  margin-top: 0.7rem;
+  margin-bottom: 1.1rem;
+}
+.card .box .card-icons {
+  justify-content: space-between;
+}
+.card .icon-link,
+.card .icon-github {
+  font-size: 1.2rem;
+  color: var(--subtitle);
+}
+.card .icon-link:hover,
+.card .icon-github:hover {
+  font-size: 1.25rem;
+  color: var(--icon-hover);
+  cursor: pointer;
+}
+.card .card-link {
+  font-size: 0.9rem;
+  color: var(--blue);
+  display: flex;
+  gap: 0.25rem;
+  justify-content: center;
+  align-items: center;
 }
