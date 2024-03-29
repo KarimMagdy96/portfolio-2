@@ -22,4 +22,29 @@ section.hero .icon-verified {
   font-size: 1.1rem;
   margin-bottom: 0.3rem;
 }
+section.hero h1.title {
+  font-size: 2.85rem;
+  line-height: 3.3rem;
+  margin: 24px 0;
+  color: var(--title);
+}
+section.hero p.subtitle {
+  color: var(--subtitle);
+  font-size: 0.9rem;
+  line-height: 1.65rem;
+  margin-bottom: 32px;
+}
+section.hero .icons {
+  font-size: 1.3rem;
+  gap: 1rem;
+  color: var(--subtitle);
+}
+section.hero .icons .icon {
+  transition: 0.3s;
+}
+section.hero .icons .icon:hover {
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: var(--icon-hover);
+}
 /* animation */
