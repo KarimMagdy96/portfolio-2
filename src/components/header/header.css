@@ -39,7 +39,7 @@ header .fixed {
   background-color: rgb(40, 40, 48, 0.91);
   backdrop-filter: blur(4px);
 }
-@keyframes mymove {
+@keyframes myMove {
   0% {
     scale: 0;
   }
@@ -52,7 +52,7 @@ header .fixed {
 }
 
 header .fixed ul.modal {
-  animation: mymove 0.7s 1;
+  animation: myMove 0.7s 1;
   width: 75%;
   margin-left: auto;
   margin-right: auto;

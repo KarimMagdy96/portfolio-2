@@ -1,0 +1,34 @@
+main.flex {
+  gap: 3rem;
+  align-items: start;
+}
+
+/* left section */
+section.left-section.flex {
+  flex-direction: column;
+  gap: 10px;
+}
+section.left-section.flex button {
+  background-color: rgba(36, 37, 46, 1);
+  width: 11rem;
+  padding: 0.75rem 0;
+  text-align: center;
+  font-size: 1.05rem;
+  text-transform: capitalize;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+section.left-section.flex button:hover {
+  opacity: 1;
+}
+section.left-section.flex button.active {
+  opacity: 1;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  border: 1px solid var(--blue);
+  border-radius: 5px;
+}
+/* right section */
+section.right-section {
+  flex-grow: 1;
+}
