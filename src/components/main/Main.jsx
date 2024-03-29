@@ -3,13 +3,13 @@ import "./main.css";
 export default function Main() {
   return (
     <main className=" flex">
-      <section className=" flex   left-section">
+      <section className=" flex    left-section">
         <button className="active">All Projects</button>
         <button>HTML&CSS</button>
         <button>Java Script</button>
         <button>React</button>
       </section>
-      <section className="border flex  right-section">
+      <section className=" flex  right-section">
         {["aa", "bb", "cc"].map((item) => (
           <article key={item} className="card ">
             <img width={266} src="./test.png" alt="" />

@@ -89,3 +89,35 @@ section.right-section.flex {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 1000px) {
+  .container {
+    width: 90%;
+    padding: 0 1.7rem;
+  }
+  .divider {
+    width: calc(
+      100% + var(--container-padding) - 2.3rem + var(--container-padding) -
+        2.3rem
+    );
+    margin-left: -1.7rem;
+  }
+}
+@media (max-width: 600px) {
+  main.flex {
+    flex-direction: column;
+    gap: 2.64rem;
+    align-items: center;
+  }
+  section.left-section.flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  section.left-section.flex button {
+    width: 7rem;
+    padding: 0.8rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
