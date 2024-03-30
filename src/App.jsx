@@ -5,7 +5,7 @@ import Footer from "./components/footer/Footer";
 import Contact from "./components/contact/Contact";
 function App() {
   return (
-    <div className="container">
+    <div id="up" className="container">
       <Header />
       <div className="divider" />
       <Hero />
@@ -15,8 +15,9 @@ function App() {
       <Contact />
       <div className="divider" />
       <Footer />
-
-      <button className="scroll2Top icon-keyboard_arrow_up"></button>
+      <a href="#up">
+        <button className="scroll2Top icon-keyboard_arrow_up"></button>
+      </a>
     </div>
   );
 }

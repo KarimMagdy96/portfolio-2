@@ -5,9 +5,13 @@ html {
   box-sizing: border-box;
   letter-spacing: 0.1px;
 }
-
+*,
+html {
+  scroll-behavior: smooth !important;
+}
 * {
   margin: 0;
+
   padding: 0;
 }
 *,
@@ -96,7 +100,9 @@ button:active {
   height: 2.6rem;
   border-radius: 50%;
   position: fixed;
-  bottom: 20rem;
+  color: white;
+  font-size: 1.2rem;
+  bottom: 2rem;
   right: 3%;
   text-align: center;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -124,6 +130,8 @@ button:active {
 }
 @media (max-width: 600px) {
   .scroll2Top {
-    opacity: 0.4;
+    width: 2.2rem;
+    height: 2.2rem;
+    opacity: 0.6;
   }
 }
