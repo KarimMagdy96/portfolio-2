@@ -47,11 +47,12 @@ export default function Main() {
         >
           HTML&CSS
         </button>
+
         <button
           onClick={() => {
             handleClick("javascript");
           }}
-          className={curentActive === "Java" ? "active" : null}
+          className={curentActive === "javascript" ? "active" : null}
         >
           Java Script
         </button>
@@ -59,7 +60,7 @@ export default function Main() {
           onClick={() => {
             handleClick("react");
           }}
-          className={curentActive === "React" ? "active" : null}
+          className={curentActive === "react" ? "active" : null}
         >
           React
         </button>

@@ -1,6 +1,12 @@
 import React from "react";
 import "./contact.css";
+import Lottie from "lottie-react";
+import doneAnimation from "../../../public/animation/done.json";
+import contactAnimation from "../../../public/animation/contactUs.json";
+import { ValidationError, useForm } from "@formspree/react";
 export default function Contact() {
+  const [state, handleSubmit] = useForm("xeqyrdlr");
+
   return (
     <section className="contact-us">
       <h1 className="title">
@@ -11,15 +17,21 @@ export default function Contact() {
         Contact Us for more information and get notified when I publish
         something new .
       </p>
-      <div className="flex">
-        <form className="" action="">
+      <div style={{ justifyContent: "space-between" }} className="flex">
+        <form onSubmit={handleSubmit} className="" action="">
           <div className="flex">
             <label htmlFor="Email">Email Address:</label>
             <input
               required
+              name="email"
               type="email"
               id="email"
-              placeholder="Email Address"
+              placeholder="Email"
+            />
+            <ValidationError
+              prefix="Email"
+              field="email"
+              errors={state.errors}
             />
           </div>
           <div className="flex" style={{ marginTop: "24px" }}>
@@ -27,13 +39,39 @@ export default function Contact() {
             <textarea
               placeholder="Massage"
               required
-              name=""
+              name="message"
               id="message"
             ></textarea>
+            <ValidationError
+              prefix="Message"
+              field="message"
+              errors={state.errors}
+            />
           </div>
-          <button className="submit">Sumbit</button>
+          <button type="submit" disabled={state.submitting} className="submit">
+            {state.submitting ? "Sending..." : "Sumbit"}
+          </button>
+          {state.succeeded && (
+            <h2
+              className="flex"
+              style={{ fontSize: "18px", marginTop: "1.7rem" }}
+            >
+              <Lottie
+                loop={false}
+                style={{ height: 55 }}
+                animationData={doneAnimation}
+              />
+              Your message has been sent successfully 👌.
+            </h2>
+          )}
         </form>
-        <div className="animation border">animation</div>
+        <div className="animation ">
+          <Lottie
+            className="contact-Animation"
+            style={{ width: 400 }}
+            animationData={contactAnimation}
+          />
+        </div>
       </div>
     </section>
   );

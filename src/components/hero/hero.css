@@ -47,4 +47,12 @@ section.hero .icons .icon:hover {
   cursor: pointer;
   color: var(--icon-hover);
 }
-/* animation */
+.animation {
+  width: 100%;
+}
+/* responsive */
+@media (max-width: 1250px) {
+  section.hero .animation {
+    display: none;
+  }
+}

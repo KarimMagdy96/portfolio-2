@@ -28,6 +28,9 @@ section.left-section.flex button.active {
   border: 1px solid var(--blue);
   border-radius: 5px;
 }
+.light section.left-section.flex button.active {
+  border: 1px solid #000;
+}
 /* right section */
 section.right-section.flex {
   flex-wrap: wrap;
@@ -37,13 +40,22 @@ section.right-section.flex {
   flex-grow: 1;
 }
 .card {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   border: 1px solid rgba(93, 188, 252, 0.3);
   transition: 0.3s;
   border-radius: 5px;
+  color: black;
   background-image: linear-gradient(
     rgba(255, 255, 255, 0.05),
     rgba(255, 255, 255, 0.05)
   );
+}
+.light .card {
+  border-color: #00000039;
+}
+.light .card:hover {
+  border-color: #000000a3;
+  background-color: rgba(246, 246, 246, 1);
 }
 .card img {
   border-radius: 5px;
