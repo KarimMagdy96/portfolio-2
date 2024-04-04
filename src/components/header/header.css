@@ -38,6 +38,7 @@ header .fixed {
   right: 0;
   background-color: rgb(40, 40, 48, 0.91);
   backdrop-filter: blur(4px);
+  z-index: 99999999;
 }
 @keyframes myMove {
   0% {

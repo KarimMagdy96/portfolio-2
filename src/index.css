@@ -4,6 +4,7 @@ html {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   letter-spacing: 0.1px;
+  scroll-behavior: smooth;
 }
 *,
 html {

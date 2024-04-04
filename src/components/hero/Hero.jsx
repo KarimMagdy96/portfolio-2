@@ -6,7 +6,7 @@ import Lottie from "lottie-react";
 import { motion } from "framer-motion";
 export default function Hero() {
   return (
-    <section className="hero flex">
+    <section id="about" className="hero flex">
       <div className="left-section ">
         <div className="parent-avatar flex">
           <motion.img

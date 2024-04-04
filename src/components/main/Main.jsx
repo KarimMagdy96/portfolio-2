@@ -48,7 +48,7 @@ export default function Main() {
     setProjects(myProjects.filter((item) => item.category === category));
   };
   return (
-    <main className=" flex">
+    <main id="projects" className=" flex">
       <section className=" flex    left-section">
         <button
           onClick={() => {

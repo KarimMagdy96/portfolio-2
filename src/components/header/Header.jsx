@@ -26,19 +26,13 @@ export default function Header() {
       <nav>
         <ul className="flex">
           <li>
-            <a href="">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="">Articles</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="">Projects</a>
-          </li>
-          <li>
-            <a href="">Speaking</a>
-          </li>
-          <li>
-            <a href="">Contact</a>
+            <a href="#contact">Contact Us</a>
           </li>
         </ul>
       </nav>
@@ -70,19 +64,34 @@ export default function Header() {
                 ></button>
               </li>
               <li>
-                <a href="">About</a>
+                <a
+                  onClick={() => {
+                    setshowModul(false);
+                  }}
+                  href="#about"
+                >
+                  About
+                </a>
               </li>
               <li>
-                <a href="">Articles</a>
+                <a
+                  onClick={() => {
+                    setshowModul(false);
+                  }}
+                  href="#projects"
+                >
+                  Projects
+                </a>
               </li>
               <li>
-                <a href="">Projects</a>
-              </li>
-              <li>
-                <a href="">Speaking</a>
-              </li>
-              <li>
-                <a href="">User</a>
+                <a
+                  onClick={() => {
+                    setshowModul(false);
+                  }}
+                  href="#contact"
+                >
+                  Contact Us
+                </a>
               </li>
             </ul>
           </div>
