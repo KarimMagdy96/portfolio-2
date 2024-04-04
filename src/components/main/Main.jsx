@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./main.css";
+import { AnimatePresence, motion } from "framer-motion";
 let myProjects = [
   {
     projectTitle: "react Project",
@@ -66,24 +67,37 @@ export default function Main() {
         </button>
       </section>
       <section className=" flex  right-section">
-        {projects.map((item) => (
-          <article key={item.projectImg} className="card ">
-            <img width={266} src={item.projectImg} alt={item.projectTitle} />
-            <div style={{ width: "266px" }} className="box">
-              <h1 className="title">{item.projectTitle}</h1>
-              <p className="sub-title">{item.ProjectDes}</p>
-              <div className="flex card-icons">
-                <div style={{ gap: "11px" }} className="flex">
-                  <div className="icon-link"></div>
-                  <div className="icon-github"></div>
+        <AnimatePresence>
+          {projects.map((item) => (
+            <motion.article
+              layout
+              transition={{ type: "spring", stiffness: 100, damping: 6 }}
+              initial={{ transform: "scale(0)" }}
+              animate={{ transform: "scale(1)" }}
+              key={item.projectImg}
+              className="card "
+            >
+              <img width={266} src={item.projectImg} alt={item.projectTitle} />
+              <div style={{ width: "266px" }} className="box">
+                <h1 className="title">{item.projectTitle}</h1>
+                <p className="sub-title">{item.ProjectDes}</p>
+                <div className="flex card-icons">
+                  <div style={{ gap: "11px" }} className="flex">
+                    <div className="icon-link"></div>
+                    <div className="icon-github"></div>
+                  </div>
+                  <a
+                    className="card-link"
+                    style={{ fontWeight: "bold" }}
+                    href=""
+                  >
+                    More <span className="icon-arrow_forward"></span>
+                  </a>
                 </div>
-                <a className="card-link" href="">
-                  more <span className="icon-arrow_forward"></span>
-                </a>
               </div>
-            </div>
-          </article>
-        ))}
+            </motion.article>
+          ))}
+        </AnimatePresence>
       </section>
     </main>
   );

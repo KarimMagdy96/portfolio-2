@@ -8,17 +8,22 @@ export default function Contact() {
   const [state, handleSubmit] = useForm("xeqyrdlr");
 
   return (
-    <section className="contact-us">
+    <section className="contact-us ">
       <h1 className="title">
         <span className="icon-envelope"></span>
-        Contact Us
+        Contact Me
       </h1>
       <p className="sub-title">
         Contact Us for more information and get notified when I publish
         something new .
       </p>
-      <div style={{ justifyContent: "space-between" }} className="flex">
-        <form onSubmit={handleSubmit} className="" action="">
+      <div style={{ justifyContent: "space-between" }} className="flex ">
+        <form
+          onSubmit={handleSubmit}
+          style={{ flexGrow: 1 }}
+          className=""
+          action=""
+        >
           <div className="flex">
             <label htmlFor="Email">Email Address:</label>
             <input

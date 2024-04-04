@@ -92,7 +92,8 @@ section.contact-us .submit:hover {
   section.contact-us #message {
     width: 100%;
     margin-left: 0;
-    padding: 0.7rem 0rem;
+
+    padding: 0.7rem 0.5rem;
     margin-top: 1rem;
   }
   section.contact-us .submit {

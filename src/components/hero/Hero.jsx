@@ -3,12 +3,20 @@ import devAnimation from "../../../public/animation/dev.json";
 
 import "./hero.css";
 import Lottie from "lottie-react";
+import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <section className="hero flex">
       <div className="left-section ">
         <div className="parent-avatar flex">
-          <img className="avatar" src="./karim.png" alt="" />
+          <motion.img
+            initial={{ transform: "scale(0)" }}
+            animate={{ transform: "scale(1.1)" }}
+            transition={{ damping: 6, type: "spring", stiffness: 100 }}
+            className="avatar"
+            src="./karim.png"
+            alt="karim"
+          />
           <div className="icon-verified"></div>
         </div>
         <h1 className="title">Front-End React Developer</h1>
@@ -27,7 +35,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="right-section animation ">
-        <div className="animation ">
+        <div className="animation-hero ">
           <Lottie
             className="contact-Animation"
             style={{ width: 355 }}
