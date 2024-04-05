@@ -22,6 +22,25 @@ let myProjects = [
     projectImg: "/public/project2.png",
   },
   {
+    projectTitle: "Smart-Home",
+    ProjectDes:
+      "Smart Home website, where innovation meets convenience. Explore a realm where technology integrates with everyday living.",
+    category: "css",
+    projectUrl: "https://karimmagdy96.github.io/Smart-Home/",
+    projectGithub:
+      "https://github.com/KarimMagdy96/Smart-Home?tab=readme-ov-file",
+    projectImg: "/public/project5.png",
+  },
+  {
+    projectTitle: "Omnifood",
+    ProjectDes:
+      "The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes.",
+    category: "css",
+    projectUrl: "https://karimmagdy96.github.io/Omnifood/",
+    projectGithub: "https://github.com/KarimMagdy96/Omnifood",
+    projectImg: "/public/project6.png",
+  },
+  {
     projectTitle: "MemoVerse",
     ProjectDes:
       "MemoVerse provides seamless idea capture with its user-friendly note app and real-time updates.",
@@ -31,6 +50,15 @@ let myProjects = [
     projectImg: "/public/project3.png",
   },
   {
+    projectTitle: "CRUDS",
+    ProjectDes:
+      "CRUDS refers to the Five basic operations This website application able to perform – Create, Read, Update ,Search, and Delete.",
+    category: "javascript",
+    projectUrl: "https://effulgent-sfogliatella-f19d45.netlify.app/",
+    projectGithub: "https://github.com/KarimMagdy96/CRUDS",
+    projectImg: "/public/project8.png",
+  },
+  {
     projectTitle: "Movie-Wave",
     ProjectDes:
       "MovieWave is a website integrated with the latest movie API, providing access to the newest films and TV shows.",
@@ -38,6 +66,15 @@ let myProjects = [
     projectUrl: "https://movie-wave-opal.vercel.app/#/login",
     projectGithub: "https://github.com/KarimMagdy96/Movie-Wave",
     projectImg: "/public/project4.png",
+  },
+  {
+    projectTitle: "TODO-App",
+    ProjectDes:
+      "Step into a world of productivity with our Todo App website designed to empower you in managing your tasks.",
+    category: "react",
+    projectUrl: "https://spiffy-lokum-c6ca72.netlify.app/",
+    projectGithub: "https://github.com/KarimMagdy96/TODO-App-with-React",
+    projectImg: "/public/project7.png",
   },
 ];
 export default function Main() {
