@@ -15,13 +15,13 @@ header ul.flex {
 header ul li a {
   color: var(--title);
   opacity: 0.9;
-  font-size: 0.88rem;
+  font-size: 0.9rem;
   font-weight: 500;
 }
 header ul li a:hover {
   color: var(--blue);
   opacity: 1;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 header button {
   font-size: 1.2rem;
@@ -54,12 +54,13 @@ header .fixed {
 
 header .fixed ul.modal {
   animation: myMove 0.7s 1;
-  width: 75%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2rem;
   border-radius: 1rem;
   padding: 1rem 2rem;
+
   background-color: var(--secondary);
 }
 header .fixed ul.modal li {
