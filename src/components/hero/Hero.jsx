@@ -27,11 +27,27 @@ export default function Hero() {
           player experienced in Git version control, Passionate about solving
           challenges and dedicated to delivering impactful user experiences.
         </p>
-        <div className="icons flex">
-          <div className="icon icon-twitter"></div>
-          <div className="icon icon-instagram"></div>
-          <div className="icon icon-github"></div>
-          <div className="icon icon-linkedin"></div>
+        <div className="icons flex  ">
+          <a
+            href="https://twitter.com/karim_magdy14"
+            target="_blank"
+            className="icon icon-twitter"
+          ></a>
+          <a
+            href="https://www.instagram.com/karimagdy_14"
+            target="_blank"
+            className="icon icon-instagram"
+          ></a>
+          <a
+            href="https://github.com/KarimMagdy96"
+            target="_blank"
+            className="icon icon-github"
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/karimmagdy96"
+            target="_blank"
+            className="icon icon-linkedin"
+          ></a>
         </div>
       </div>
       <div className="right-section animation ">
