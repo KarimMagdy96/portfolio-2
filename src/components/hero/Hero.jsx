@@ -14,7 +14,7 @@ export default function Hero() {
             animate={{ transform: "scale(1.1)" }}
             transition={{ damping: 6, type: "spring", stiffness: 100 }}
             className="avatar"
-            src="imgs/karim.png"
+            src="imgs/karim.webp"
             alt="karim"
           />
           <div className="icon-verified"></div>

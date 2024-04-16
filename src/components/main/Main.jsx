@@ -10,7 +10,7 @@ let myProjects = [
     projectUrl: "https://reciperover.vercel.app/",
     projectGithub:
       "https://github.com/KarimMagdy96/RecipeRover-Food?tab=readme-ov-file",
-    projectImg: "imgs/project1.png",
+    projectImg: "imgs/project1.webp",
   },
   {
     projectTitle: "Gmate-Gym",
@@ -19,7 +19,7 @@ let myProjects = [
     category: "css",
     projectUrl: "https://gymate-gym.vercel.app/",
     projectGithub: "https://github.com/KarimMagdy96/Gmate-Gym",
-    projectImg: "imgs/project2.png",
+    projectImg: "imgs/project2.webp",
   },
   {
     projectTitle: "Smart-Home",
@@ -29,7 +29,7 @@ let myProjects = [
     projectUrl: "https://karimmagdy96.github.io/Smart-Home/",
     projectGithub:
       "https://github.com/KarimMagdy96/Smart-Home?tab=readme-ov-file",
-    projectImg: "imgs/project5.png",
+    projectImg: "imgs/project5.webp",
   },
   {
     projectTitle: "Omnifood",
@@ -38,7 +38,7 @@ let myProjects = [
     category: "css",
     projectUrl: "https://karimmagdy96.github.io/Omnifood/",
     projectGithub: "https://github.com/KarimMagdy96/Omnifood",
-    projectImg: "imgs/project6.png",
+    projectImg: "imgs/project6.webp",
   },
   {
     projectTitle: "MemoVerse",
@@ -47,7 +47,7 @@ let myProjects = [
     category: "javascript",
     projectUrl: "https://note-app-steel-theta.vercel.app/",
     projectGithub: "https://github.com/KarimMagdy96/MemoVerse",
-    projectImg: "imgs/project3.png",
+    projectImg: "imgs/project3.webp",
   },
   {
     projectTitle: "CRUDS",
@@ -56,7 +56,7 @@ let myProjects = [
     category: "javascript",
     projectUrl: "https://effulgent-sfogliatella-f19d45.netlify.app/",
     projectGithub: "https://github.com/KarimMagdy96/CRUDS",
-    projectImg: "imgs/project8.png",
+    projectImg: "imgs/project8.webp",
   },
   {
     projectTitle: "Movie-Wave",
@@ -65,7 +65,7 @@ let myProjects = [
     category: "react",
     projectUrl: "https://movie-wave-opal.vercel.app/#/login",
     projectGithub: "https://github.com/KarimMagdy96/Movie-Wave",
-    projectImg: "imgs/project4.png",
+    projectImg: "imgs/project4.webp",
   },
   {
     projectTitle: "TODO-App",
@@ -74,7 +74,7 @@ let myProjects = [
     category: "react",
     projectUrl: "https://spiffy-lokum-c6ca72.netlify.app/",
     projectGithub: "https://github.com/KarimMagdy96/TODO-App-with-React",
-    projectImg: "imgs/project7.png",
+    projectImg: "imgs/project7.webp",
   },
 ];
 export default function Main() {
