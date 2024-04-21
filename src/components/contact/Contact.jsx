@@ -53,7 +53,12 @@ export default function Contact() {
               errors={state.errors}
             />
           </div>
-          <button type="submit" disabled={state.submitting} className="submit">
+          <button
+            aria-label="submit the form"
+            type="submit"
+            disabled={state.submitting}
+            className="submit"
+          >
             {state.submitting ? "Sending..." : "Sumbit"}
           </button>
           {state.succeeded && (

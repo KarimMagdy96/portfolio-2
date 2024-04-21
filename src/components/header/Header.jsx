@@ -17,6 +17,7 @@ export default function Header() {
   return (
     <header className=" flex">
       <button
+        aria-label="nav menu"
         onClick={() => {
           setshowModul(true);
         }}
@@ -26,17 +27,24 @@ export default function Header() {
       <nav>
         <ul className="flex">
           <li>
-            <a href="#about">About</a>
+            <a href="#about" aria-label="about">
+              About
+            </a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects" aria-label="projects">
+              Projects
+            </a>
           </li>
           <li>
-            <a href="#contact">Contact Us</a>
+            <a href="#contact" aria-label="contact">
+              Contact Us
+            </a>
           </li>
         </ul>
       </nav>
       <button
+        aria-label="light and dark mode switcher"
         onClick={() => {
           localStorage.setItem(
             "caretTheme",
@@ -57,6 +65,7 @@ export default function Header() {
             <ul className=" modal">
               <li>
                 <button
+                  aria-label="cancel button"
                   className="icon-cancel"
                   onClick={() => {
                     setshowModul(false);
@@ -69,6 +78,7 @@ export default function Header() {
                     setshowModul(false);
                   }}
                   href="#about"
+                  aria-label="about"
                 >
                   About
                 </a>
@@ -79,6 +89,7 @@ export default function Header() {
                     setshowModul(false);
                   }}
                   href="#projects"
+                  aria-label="projects"
                 >
                   Projects
                 </a>
@@ -89,6 +100,7 @@ export default function Header() {
                     setshowModul(false);
                   }}
                   href="#contact"
+                  aria-label="contact"
                 >
                   Contact Us
                 </a>

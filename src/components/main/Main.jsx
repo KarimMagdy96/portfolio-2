@@ -7,7 +7,7 @@ let myProjects = [
     ProjectDes:
       "RecipeRover Food Website Provides seamless intertwines coding prowess with the magic of culinary exploration",
     category: "javascript",
-    projectUrl: "https://reciperover.vercel.app/",
+    projectUrl: "https://reciperover.vercel.app",
     projectGithub:
       "https://github.com/KarimMagdy96/RecipeRover-Food?tab=readme-ov-file",
     projectImg: "imgs/project1.webp",
@@ -17,7 +17,7 @@ let myProjects = [
     ProjectDes:
       "Gymate provides a space for people to improve their physical fitness and overall health through regular exercise.",
     category: "css",
-    projectUrl: "https://gymate-gym.vercel.app/",
+    projectUrl: "https://gymate-gym.vercel.app",
     projectGithub: "https://github.com/KarimMagdy96/Gmate-Gym",
     projectImg: "imgs/project2.webp",
   },
@@ -45,7 +45,7 @@ let myProjects = [
     ProjectDes:
       "MemoVerse provides seamless idea capture with its user-friendly note app and real-time updates.",
     category: "javascript",
-    projectUrl: "https://note-app-steel-theta.vercel.app/",
+    projectUrl: "https://memoversee.vercel.app",
     projectGithub: "https://github.com/KarimMagdy96/MemoVerse",
     projectImg: "imgs/project3.webp",
   },
@@ -54,7 +54,7 @@ let myProjects = [
     ProjectDes:
       "CRUDS refers to the Five basic operations This website application able to perform – Create, Read, Update ,Search, and Delete.",
     category: "javascript",
-    projectUrl: "https://effulgent-sfogliatella-f19d45.netlify.app/",
+    projectUrl: "https://cruds96.netlify.app",
     projectGithub: "https://github.com/KarimMagdy96/CRUDS",
     projectImg: "imgs/project8.webp",
   },
@@ -63,7 +63,7 @@ let myProjects = [
     ProjectDes:
       "MovieWave is a website integrated with the latest movie API, providing access to the newest films and TV shows.",
     category: "react",
-    projectUrl: "https://movie-wave-opal.vercel.app/#/login",
+    projectUrl: "https://moviewavee.vercel.app",
     projectGithub: "https://github.com/KarimMagdy96/Movie-Wave",
     projectImg: "imgs/project4.webp",
   },
@@ -88,6 +88,7 @@ export default function Main() {
     <main id="projects" className=" flex">
       <section className=" flex    left-section">
         <button
+          aria-label="All Projects"
           onClick={() => {
             setcurentActive("all");
             setProjects(myProjects);
@@ -97,6 +98,7 @@ export default function Main() {
           All Projects
         </button>
         <button
+          aria-label="HTML&CSS"
           onClick={() => {
             handleClick("css");
           }}
@@ -106,6 +108,7 @@ export default function Main() {
         </button>
 
         <button
+          aria-label="Java Script"
           onClick={() => {
             handleClick("javascript");
           }}
@@ -114,6 +117,7 @@ export default function Main() {
           Java Script
         </button>
         <button
+          aria-label="React"
           onClick={() => {
             handleClick("react");
           }}
@@ -133,24 +137,32 @@ export default function Main() {
               key={item.projectImg}
               className="card "
             >
-              <img width={266} src={item.projectImg} alt={item.projectTitle} />
+              <img
+                width={266}
+                src={item.projectImg}
+                alt={item.projectTitle}
+                loading="lazy"
+              />
               <div style={{ width: "266px" }} className="box">
                 <h1 className="title">{item.projectTitle}</h1>
                 <p className="sub-title">{item.ProjectDes}</p>
                 <div className="flex card-icons">
                   <div style={{ gap: "11px" }} className="flex">
                     <a
+                      aria-label="project link"
                       href={item.projectUrl}
                       target="_blank"
                       className="icon-link"
                     ></a>
                     <a
+                      aria-label="project github"
                       href={item.projectGithub}
                       target="_blank"
                       className="icon-github"
                     ></a>
                   </div>
                   <a
+                    aria-label={item.projectTitle}
                     className="card-link"
                     style={{ fontWeight: "bold" }}
                     target="_blank"

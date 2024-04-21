@@ -5,10 +5,14 @@ export default function Footer() {
     <footer className="flex">
       <ul className="flex">
         <li>
-          <a href="#about">About</a>
+          <a href="#about" aria-label="about me">
+            About
+          </a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a href="#projects" aria-label="my projects">
+            Projects
+          </a>
         </li>
       </ul>
       <p>&copy;2024 Karim Magdy. All rights reserved.</p>

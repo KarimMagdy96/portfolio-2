@@ -28,6 +28,7 @@ function App() {
       <div className="divider" />
       <Footer />
       <a
+        aria-label="scroll to top"
         href="#up"
         className="showScroll"
         style={{
@@ -35,6 +36,7 @@ function App() {
         }}
       >
         <button
+          aria-label="up button"
           id="upBtn"
           className="scroll2Top icon-keyboard_arrow_up"
         ></button>

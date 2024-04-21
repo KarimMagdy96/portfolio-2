@@ -13,9 +13,10 @@ export default function Hero() {
             initial={{ transform: "scale(0)" }}
             animate={{ transform: "scale(1.1)" }}
             transition={{ damping: 6, type: "spring", stiffness: 100 }}
-            className="avatar"
+            className="avatar flex"
             src="imgs/karim.webp"
             alt="karim"
+            loading="lazy"
           />
           <div className="icon-verified"></div>
         </div>
@@ -29,21 +30,25 @@ export default function Hero() {
         </p>
         <div className="icons flex  ">
           <a
+            aria-label="Twitter"
             href="https://twitter.com/karim_magdy14"
             target="_blank"
             className="icon icon-twitter"
           ></a>
           <a
+            aria-label="Instagram"
             href="https://www.instagram.com/karimagdy_14"
             target="_blank"
             className="icon icon-instagram"
           ></a>
           <a
+            aria-label="Github"
             href="https://github.com/KarimMagdy96"
             target="_blank"
             className="icon icon-github"
           ></a>
           <a
+            aria-label="Linkedin"
             href="https://www.linkedin.com/in/karimmagdy96"
             target="_blank"
             className="icon icon-linkedin"
