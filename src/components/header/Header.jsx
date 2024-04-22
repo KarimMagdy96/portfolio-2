@@ -54,7 +54,7 @@ export default function Header() {
         }}
       >
         {localStorage.getItem("caretTheme") === "light" ? (
-          <span className="icon-wb_sunny"></span>
+          <span className=" icon-sun-fill"></span>
         ) : (
           <span className="icon-moon"></span>
         )}

@@ -81,7 +81,7 @@ header.fixed ul.modal li a {
   font-size: 1rem;
 }
 header .icon-moon,
-header .icon-wb_sunny,
+header .icon-sun-fill,
 header .icon-th-menu {
   background-color: var(--bgHeader);
   color: var(--subtitle);
@@ -90,7 +90,7 @@ header .icon-th-menu {
   border: 1px solid rgba(250, 128, 114, 0.243);
   transition: 0.2s;
 }
-header .icon-wb_sunny {
+header .icon-sun-fill {
   color: gold;
   box-shadow: 1px 1px 40px rgba(35, 35, 36, 0.165);
 }

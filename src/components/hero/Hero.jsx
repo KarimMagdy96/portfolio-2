@@ -30,16 +30,10 @@ export default function Hero() {
         </p>
         <div className="icons flex  ">
           <a
-            aria-label="Twitter"
-            href="https://twitter.com/karim_magdy14"
+            aria-label="WhatsApp"
+            href=" https://wa.me/01097220712"
             target="_blank"
-            className="icon icon-twitter"
-          ></a>
-          <a
-            aria-label="Instagram"
-            href="https://www.instagram.com/karimagdy_14"
-            target="_blank"
-            className="icon icon-instagram"
+            className="icon icon-whatsapp"
           ></a>
           <a
             aria-label="Github"
