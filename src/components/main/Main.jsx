@@ -82,7 +82,7 @@ let myProjects = [
     ProjectDes:
       "user-friendly eCommerce site delivering seamless shopping experiences and responsive design.",
     category: "react",
-    projectUrl: "https://ecommerce-react-ivory-two.vercel.app/",
+    projectUrl: "https://commerce96.vercel.app/",
     projectGithub: "https://github.com/KarimMagdy96/ecommerceReact",
     projectImg: "imgs/project9.webp",
   },
