@@ -67,6 +67,7 @@ let myProjects = [
     projectGithub: "https://github.com/KarimMagdy96/Movie-Wave",
     projectImg: "imgs/project4.webp",
   },
+
   {
     projectTitle: "TODO-App",
     ProjectDes:
@@ -75,6 +76,15 @@ let myProjects = [
     projectUrl: "https://spiffy-lokum-c6ca72.netlify.app/",
     projectGithub: "https://github.com/KarimMagdy96/TODO-App-with-React",
     projectImg: "imgs/project7.webp",
+  },
+  {
+    projectTitle: "E-commerce site",
+    ProjectDes:
+      "user-friendly eCommerce site delivering seamless shopping experiences and responsive design.",
+    category: "react",
+    projectUrl: "https://ecommerce-react-ivory-two.vercel.app/",
+    projectGithub: "https://github.com/KarimMagdy96/ecommerceReact",
+    projectImg: "imgs/project9.webp",
   },
 ];
 export default function Main() {
