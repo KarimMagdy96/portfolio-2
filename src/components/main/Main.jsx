@@ -90,7 +90,6 @@ let myProjects = [
     projectTitle: "E-commerce site",
     ProjectDes:
       "user-friendly eCommerce build with react, typescript, clerk and axios for seamless shopping experiences .",
-      "user-friendly eCommerce site delivering seamless shopping experiences and responsive design.",
     category: "react",
     projectUrl: "https://commerce96.vercel.app/",
     projectGithub: "https://github.com/KarimMagdy96/ecommerceReact",
