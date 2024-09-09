@@ -80,6 +80,7 @@ let myProjects = [
   {
     projectTitle: "E-commerce site",
     ProjectDes:
+<<<<<<< HEAD
       "eCommerce site with React,React Query ,typescript,yup,formik , stripe and axios for seamless shopping experiences.",
     category: "react",
     projectUrl: "https://ecommerce096.vercel.app",
@@ -90,11 +91,15 @@ let myProjects = [
     projectTitle: "E-commerce site",
     ProjectDes:
       "user-friendly eCommerce build with react, typescript, clerk and axios for seamless shopping experiences .",
+=======
+      "user-friendly eCommerce site delivering seamless shopping experiences and responsive design.",
+>>>>>>> cfdffc20ef53abb96a546df892e08d5549ea4785
     category: "react",
     projectUrl: "https://commerce96.vercel.app/",
     projectGithub: "https://github.com/KarimMagdy96/ecommerceReact",
     projectImg: "imgs/project9.webp",
   },
+<<<<<<< HEAD
 
   {
     projectTitle: "weather App Next 14",
@@ -105,6 +110,8 @@ let myProjects = [
     projectGithub: "https://github.com/KarimMagdy96/weatherNext",
     projectImg: "imgs/project10.webp",
   },
+=======
+>>>>>>> cfdffc20ef53abb96a546df892e08d5549ea4785
 ];
 export default function Main() {
   const [curentActive, setcurentActive] = useState("all");
