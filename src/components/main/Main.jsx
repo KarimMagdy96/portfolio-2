@@ -67,6 +67,7 @@ let myProjects = [
     projectGithub: "https://github.com/KarimMagdy96/Movie-Wave",
     projectImg: "imgs/project4.webp",
   },
+
   {
     projectTitle: "TODO-App",
     ProjectDes:
@@ -75,6 +76,34 @@ let myProjects = [
     projectUrl: "https://spiffy-lokum-c6ca72.netlify.app/",
     projectGithub: "https://github.com/KarimMagdy96/TODO-App-with-React",
     projectImg: "imgs/project7.webp",
+  },
+  {
+    projectTitle: "E-commerce site",
+    ProjectDes:
+      "eCommerce site with React,React Query ,typescript,yup,formik , stripe and axios for seamless shopping experiences.",
+    category: "react",
+    projectUrl: "https://ecommerce096.vercel.app",
+    projectGithub: "https://github.com/KarimMagdy96/advanceEcommerce",
+    projectImg: "imgs/project11.webp",
+  },
+  {
+    projectTitle: "E-commerce site",
+    ProjectDes:
+      "user-friendly eCommerce build with react, typescript, clerk and axios for seamless shopping experiences .",
+    category: "react",
+    projectUrl: "https://commerce96.vercel.app/",
+    projectGithub: "https://github.com/KarimMagdy96/ecommerceReact",
+    projectImg: "imgs/project9.webp",
+  },
+
+  {
+    projectTitle: "weather App Next 14",
+    ProjectDes:
+      "A dynamic app built with Next.js 14 and React, offering real-time data, responsive design, and a seamless user experience",
+    category: "react",
+    projectUrl: "https://weather096.vercel.app",
+    projectGithub: "https://github.com/KarimMagdy96/weatherNext",
+    projectImg: "imgs/project10.webp",
   },
 ];
 export default function Main() {
@@ -123,7 +152,7 @@ export default function Main() {
           }}
           className={curentActive === "react" ? "active" : null}
         >
-          React
+          React and Next js
         </button>
       </section>
       <section className=" flex  right-section">
