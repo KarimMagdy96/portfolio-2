@@ -152,7 +152,7 @@ export default function Main() {
           }}
           className={curentActive === "react" ? "active" : null}
         >
-          React and Next js
+          React & Next
         </button>
       </section>
       <section className=" flex  right-section">
