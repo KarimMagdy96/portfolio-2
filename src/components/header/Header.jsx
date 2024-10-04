@@ -1,4 +1,7 @@
 import { useEffect, useState } from "react";
+import { IoCloseSharp } from "react-icons/io5";
+import { LuMenu } from "react-icons/lu";
+
 import "./header.css";
 export default function Header() {
   const [showModel, setshowModul] = useState(false);
@@ -22,7 +25,9 @@ export default function Header() {
           setshowModul(true);
         }}
         className="icon-th-menu"
-      ></button>
+      >
+        <LuMenu />
+      </button>
       <div />
       <nav>
         <ul className="flex">
@@ -70,7 +75,9 @@ export default function Header() {
                   onClick={() => {
                     setshowModul(false);
                   }}
-                ></button>
+                >
+                  <IoCloseSharp />
+                </button>
               </li>
               <li>
                 <a
